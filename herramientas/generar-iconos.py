@@ -90,5 +90,7 @@ def generar(tamano, ruta):
 
 
 if __name__ == "__main__":
-    for tamano in (192, 512):
+    # 180 es el tamaño que pide iOS para el icono de la pantalla de inicio;
+    # 192 y 512 son los del manifest para Android.
+    for tamano in (180, 192, 512):
         generar(tamano, os.path.join(DESTINO, f"icono-{tamano}.png"))
