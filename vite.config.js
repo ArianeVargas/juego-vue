@@ -9,7 +9,8 @@ export default defineConfig({
     vue(),
     VitePWA({
       registerType: 'autoUpdate',
-      includeAssets: ['recursos/**/*'],
+      // No hace falta includeAssets: globPatterns ya cubre todo lo que
+      // acaba en dist/, incluidos los recursos copiados desde public/.
       workbox: {
         globPatterns: ['**/*.{js,css,html,png,jpeg,jpg,svg,wav,webmanifest}'],
         maximumFileSizeToCacheInBytes: 8 * 1024 * 1024,
