@@ -5,6 +5,6 @@ export function recurso(nombre) {
 
 export const SONIDOS = {
   clic: 'audio1.wav',
-  acierto: 'audio2.wav',
-  fallo: 'audio3.wav',
+  acierto: 'audio3.wav',
+  fallo: 'audio2.wav',
 }

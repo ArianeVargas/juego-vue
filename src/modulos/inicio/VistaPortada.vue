@@ -14,6 +14,7 @@ const router = useRouter()
         <span class="portada__titulo-realce">con los Cuentos</span>
       </h1>
       <p class="portada__lema">La alegría de leer…</p>
+      <p class="portada__presentado">Estudiante: Cristian Andrés Gutiérrez Vargas</p>
 
       <p class="portada__bienvenida">
         Bienvenidos a la aventura de leer y de comprender lo que lees. Para desarrollar de una
@@ -29,6 +30,8 @@ const router = useRouter()
           Ayuda
         </BotonJuego>
       </div>
+
+      <p class="portada__desarrollador">Desarrollado por: Ariane Hernandez e Ivan Aparicio</p>
     </div>
   </div>
 </template>
@@ -96,5 +99,18 @@ const router = useRouter()
   justify-content: center;
   gap: 0.8rem;
   margin-top: 2.2rem;
+}
+
+.portada__presentado {
+  margin: 1.4rem 0 0;
+  font-size: 0.95rem;
+  color: var(--color-texto-suave);
+}
+
+.portada__desarrollador {
+  margin: 2.4rem 0 0;
+  font-size: 0.8rem;
+  color: var(--color-texto-suave);
+  opacity: 0.75;
 }
 </style>
