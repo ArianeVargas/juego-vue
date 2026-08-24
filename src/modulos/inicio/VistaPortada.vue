@@ -14,7 +14,7 @@ const router = useRouter()
         <span class="portada__titulo-realce">con los Cuentos</span>
       </h1>
       <p class="portada__lema">La alegría de leer…</p>
-      <p class="portada__presentado">Estudiante: Cristian Andrés Gutiérrez Vargas</p>
+      <p class="portada__presentado">Estudiante de Maestría en Educación Cristian Andrés Gutiérrez Vargas</p>
 
       <p class="portada__bienvenida">
         Bienvenidos a la aventura de leer y de comprender lo que lees. Para desarrollar de una
